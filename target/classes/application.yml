@@ -1,0 +1,16 @@
+# Close the template cache
+spring:
+  thymeleaf:
+    cache: false
+# Binding configuration file
+  messages:
+    basename: i18n.login
+#  Close the Default icon
+  mvc:
+    favicon:
+      enabled: false
+    date-format: yyyy-MM-dd
+# Custom access path
+server:
+  servlet:
+    context-path: /cheek
